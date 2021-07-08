@@ -17,4 +17,4 @@ First Install Node js in your system
 
 Open Server folder in your default IDE (mine was VSCode)
 
-Open terminal and run command "nodemon index.js"
+Open terminal and run command "node index.js"
