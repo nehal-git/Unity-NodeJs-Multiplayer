@@ -393,9 +393,10 @@ MonoBehaviour:
   networkContainer: {fileID: 1530753677}
   WaitPanel: {fileID: 111627155}
   ConnectPanel: {fileID: 46573152}
-  roomName: 
+  roomID: 
   onConnected: 0
   isAI: 0
+  isAllPlayersJoined: 0
 --- !u!4 &209449692
 Transform:
   m_ObjectHideFlags: 0
@@ -958,11 +959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ed9fad60d89e642a71f45203f55bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  socket: {fileID: 0}
-  canvas: {fileID: 1117585434}
-  playerNameInput: {fileID: 402278347}
-  playerPrefab: {fileID: 5286420250816184423, guid: d162d4e0aa8979c4ea0d0e592734ea42,
-    type: 3}
 --- !u!4 &591015399
 Transform:
   m_ObjectHideFlags: 0

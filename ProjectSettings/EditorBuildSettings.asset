@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/test.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/acceltest.unity
     guid: f7b93b801056bec439319274250b160a
+  - enabled: 1
+    path: Assets/Scenes/NewSocketTest.unity
+    guid: cf7186b8737d93d4e8ee426a0135932e
   m_configObjects: {}

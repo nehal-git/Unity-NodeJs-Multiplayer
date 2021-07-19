@@ -66,7 +66,7 @@ io.on('connection', (socket) => {
 
     //})
 
-
+   
 
 
 
@@ -411,7 +411,7 @@ io.on('connection', (socket) => {
 
         player.position = data.position;
         player.rotation = data.rotation;
-        // console.log(data.position);
+         console.log(data.position);
         socket.broadcast.to(data.room._room).emit('transform', player)
 
     });
